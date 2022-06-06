@@ -1,0 +1,15 @@
+.style-product-div{
+    display: grid;
+    grid-template-columns: repeat(3,430px);
+    grid-template-rows: auto;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+    place-items: center;
+}
+.style-product-div > div {
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+
+}
